@@ -4,7 +4,7 @@
     "guid": "default",
     "version": "1.0.0",
     "description": "Default design for Jellyfin",
-    "targetVersion": "10.8.0",
+    "targetVersion": "10.11.0",
     "image": "",
     "url": "https://github.com/KrouClar/Jellyfin/blob/main/themes/default.css"
   }
