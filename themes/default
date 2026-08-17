@@ -1,1 +1,127 @@
+/* === Palette chaleureuse pour Jellyfin === */
 
+:root {
+    --warm-bg: #1a120b;
+    --warm-bg-secondary: #2b1d14;
+    --warm-accent: #e08d3c;
+    --warm-accent-dark: #c1440e;
+    --warm-text: #f5e6d3;
+}
+
+body,
+.mainDrawer,
+.skinHeader {
+    background-color: var(--warm-bg) !important;
+    color: var(--warm-text) !important;
+}
+
+.skinHeader {
+    background: linear-gradient(180deg, var(--warm-bg-secondary), var(--warm-bg)) !important;
+    border-bottom: 1px solid var(--warm-accent-dark);
+}
+
+.card {
+    background-color: var(--warm-bg-secondary) !important;
+    border-radius: 8px;
+}
+
+.cardText,
+.cardText-first,
+.cardText-secondary {
+    color: var(--warm-text) !important;
+}
+
+.emby-button,
+.raised {
+    background-color: var(--warm-accent) !important;
+    color: #1a120b !important;
+    border-radius: 6px !important;
+}
+
+.emby-button:hover,
+.raised:hover {
+    background-color: var(--warm-accent-dark) !important;
+}
+
+a,
+.emby-tabs .emby-button.selected {
+    color: var(--warm-accent) !important;
+}
+
+.itemProgressBar {
+    background-color: var(--warm-accent) !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--warm-bg);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--warm-accent-dark);
+    border-radius: 5px;
+}/* === Palette chaleureuse pour Jellyfin === */
+
+:root {
+    --warm-bg: #1a120b;
+    --warm-bg-secondary: #2b1d14;
+    --warm-accent: #e08d3c;
+    --warm-accent-dark: #c1440e;
+    --warm-text: #f5e6d3;
+}
+
+body,
+.mainDrawer,
+.skinHeader {
+    background-color: var(--warm-bg) !important;
+    color: var(--warm-text) !important;
+}
+
+.skinHeader {
+    background: linear-gradient(180deg, var(--warm-bg-secondary), var(--warm-bg)) !important;
+    border-bottom: 1px solid var(--warm-accent-dark);
+}
+
+.card {
+    background-color: var(--warm-bg-secondary) !important;
+    border-radius: 8px;
+}
+
+.cardText,
+.cardText-first,
+.cardText-secondary {
+    color: var(--warm-text) !important;
+}
+
+.emby-button,
+.raised {
+    background-color: var(--warm-accent) !important;
+    color: #1a120b !important;
+    border-radius: 6px !important;
+}
+
+.emby-button:hover,
+.raised:hover {
+    background-color: var(--warm-accent-dark) !important;
+}
+
+a,
+.emby-tabs .emby-button.selected {
+    color: var(--warm-accent) !important;
+}
+
+.itemProgressBar {
+    background-color: var(--warm-accent) !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--warm-bg);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--warm-accent-dark);
+    border-radius: 5px;
+}
