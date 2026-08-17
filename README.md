@@ -1,1 +1,5 @@
 # Jellyfin
+
+## Docker Compose
+
+## Theme
