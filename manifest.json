@@ -6,6 +6,6 @@
     "description": "Default design for Jellyfin",
     "targetVersion": "10.8.0",
     "image": "",
-    "url": "https://raw.githubusercontent.com/KrouClar/Docker/main/themes/default-theme.css"
+    "url": "https://github.com/KrouClar/Jellyfin/blob/main/themes/default.css"
   }
 ]
