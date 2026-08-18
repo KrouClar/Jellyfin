@@ -1,14 +1,11 @@
-/* === Palette pastel pour Jellyfin === */
-/* Compatible Jellyfin Web 10.11.x */
-
 :root {
-    --pastel-bg: #2e2a3d;
-    --pastel-bg-secondary: #3a3550;
-    --pastel-accent: #c9a8e0;
-    --pastel-accent-dark: #a888c9;
-    --pastel-mint: #a8e6cf;
-    --pastel-pink: #f4b8c4;
-    --pastel-text: #f5eef7;
+    --color-background: #2e2a3d;
+    --color-background-secondary: #3a3550;
+    --color-accent: #c9a8e0;
+    --color-accent-dark: #a888c9;
+    --color-mint: #a8e6cf;
+    --color-pink: #f4b8c4;
+    --color-text: #f5eef7;
 }
 
 /* Fond général */
