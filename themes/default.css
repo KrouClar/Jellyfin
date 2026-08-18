@@ -36,7 +36,7 @@ body,
 .cardText,
 .cardText-first,
 .cardText-secondary {
-    color: var(--pastel-text) !important;
+    color: var(--color-text) !important;
 }
 
 /* Boutons */
@@ -49,13 +49,13 @@ body,
 
 .emby-button:hover,
 .raised:hover {
-    background-color: var(--pastel-accent-dark) !important;
+    background-color: var(--color-accent-dark) !important;
 }
 
 /* Liens et onglet actif */
 a,
 .emby-tab-button-active {
-    color: var(--pastel-pink) !important;
+    color: var(--color-pink) !important;
 }
 
 /* Barre de progression (lecture en cours) */
