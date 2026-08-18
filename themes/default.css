@@ -1,4 +1,6 @@
+/* root --> sélectionne la racine du document, donc toute la page */
 :root {
+    /* Variable pour les couleurs */
     --color-background: #2e2a3d;
     --color-background-secondary: #3a3550;
     --color-accent: #c9a8e0;
@@ -8,23 +10,26 @@
     --color-text: #f5eef7;
 }
 
-/* Fond général */
+/* Fond général de la page */
 body,
+/* .elémentDeLaPage */
 .mainDrawer,
 .skinHeader {
-    background-color: var(--pastel-bg) !important;
-    color: var(--pastel-text) !important;
+    /* Couleur de fond */
+    background-color: var(--color-background) !important/* !important --> prend le dessus sur toutes les règles du CSS */;
+    /* Couleur de texte */
+    color: var(--color-text) !important;
 }
 
 /* Barre de navigation / header */
 .skinHeader {
-    background: linear-gradient(180deg, var(--pastel-bg-secondary), var(--pastel-bg)) !important;
-    border-bottom: 1px solid var(--pastel-accent-dark);
+    background: linear-gradient(180deg, var(--color-background-secondary), var(--color-background)) !important;
+    border-bottom: 1px solid var(--color-accent-dark);
 }
 
 /* Cartes (films/séries) */
 .card {
-    background-color: var(--pastel-bg-secondary) !important;
+    background-color: var(--color-background-secondary) !important;
     border-radius: 10px;
 }
 
@@ -37,7 +42,7 @@ body,
 /* Boutons */
 .emby-button,
 .raised {
-    background-color: var(--pastel-accent) !important;
+    background-color: var(--color-accent) !important;
     color: #2e2a3d !important;
     border-radius: 8px !important;
 }
@@ -55,7 +60,7 @@ a,
 
 /* Barre de progression (lecture en cours) */
 .itemProgressBar {
-    background-color: var(--pastel-mint) !important;
+    background-color: var(--color-mint) !important;
 }
 
 /* Scrollbar */
@@ -63,9 +68,9 @@ a,
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: var(--pastel-bg);
+    background: var(--color-background);
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--pastel-accent-dark);
+    background: var(--color-accent-dark);
     border-radius: 5px;
 }
