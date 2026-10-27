@@ -1,1 +1,31 @@
+/* halloween.css */
 
+:root {
+  /* Couleurs principales */
+  --theme-primary-color: #ff6600; /* Orange Citrouille */
+  --theme-text-color: #ffffff;
+  
+  /* Arrière-plans sombres */
+  --theme-body-background: #0d0d0d;
+  --theme-sidebar-background: #141414;
+  
+  /* Boutons */
+  --button-background: #ff6600;
+  --button-color: #000000;
+}
+
+/* Titres en orange */
+.pageTitle, .sectionTitle {
+  color: #ff6600 !important;
+}
+
+/* Lueur orange au survol des jacquettes */
+.card:hover .cardImageContainer {
+  box-shadow: 0 0 15px rgba(255, 102, 0, 0.7);
+  border: 1px solid #ff6600;
+}
+
+/* Sélection et éléments actifs en orange/sombre */
+.navMenuButton:hover, .listItem:hover {
+  background-color: rgba(255, 102, 0, 0.2) !important;
+}
